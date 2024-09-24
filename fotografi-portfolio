@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hans Hugo Axene Fotografi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Hans Hugo Axene - Tröskel</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Hem</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#reviews">Recensioner</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Välkommen till mitt Vernissage!</h2>
+        <p>Utforska mina fotografier och läs mina reflektioner och recensioner. Välkommen till min värld av bildkonst.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="gallery">
+            <div class="image-item">
+                <img src="photo1.jpg" alt="Fotografi 1">
+                <p>Titel på Fotografi 1</p>
+            </div>
+            <div class="image-item">
+                <img src="photo2.jpg" alt="Fotografi 2">
+                <p>Titel på Fotografi 2</p>
+            </div>
+            <!-- Lägg till fler bilder här -->
+        </div>
+    </section>
+
+    <section id="reviews">
+        <h2>Recensioner</h2>
+        <div class="review">
+            <h3>Fotografi 1</h3>
+            <p>Recension av detta fotografi...</p>
+        </div>
+        <div class="review">
+            <h3>Fotografi 2</h3>
+            <p>Recension av detta fotografi...</p>
+        </div>
+        <!-- Lägg till fler recensioner här -->
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Vill du veta mer om mina verk eller boka tid för vernissaget? Kontakta mig via e-post: <a href="mailto:hans@example.com">hans@example.com</a></p>
+    </section>
+
+    <footer>
+        <p>© 2024 Hans Hugo Axene. Alla rättigheter förbehållna.</p>
+    </footer>
+</body>
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: white;
+}
+
+.image-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
